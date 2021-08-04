@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FinalProject</string>
+
+    <string name="bemvindo">Welcome to our booking services</string>
+    <string name="nome">Please fill the camps below:</string>
+    <string name="enviar">SUBMIT</string>
+    <string name="btnPlay">PLAY</string>
+    <string name="btnPause">PAUSE</string>
+    <string name="btnStop">STOP</string>
+    <string name="musica">beach vibe music</string>
+
+    <string name="btnDetalhes">More Details</string>
+    <string name="labelDiaria">Daily:</string>
+    <string name="labelCritica">Stars:</string>
+
+
+    <string name="hintNome">NAME:</string>
+    <string name="hintTelefone">PHONE:</string>
+    <string name="hintEmail">E-MAIL:</string>
+
+    <string name="ola">Hi</string>
+    <string name="info">Do you wish to send your info details to the hotel and book your room?</string>
+
+
+    <string name="btnAgendar">Book</string>
+    <string name="btnRetornar">Return</string>
+
+    <string name="vista">Best View:</string>
+
+    <string name="endLabel">Adress:</string>
+    <string name="foneLabel">Phone:</string>
+    <string name="clickImage">Click on any image to know more</string>
+
+    <string name="notOla">Hello</string>
+    <string name="notBemvindo">WELCOME!</string>
+
+    <string name="dolar">Dolar Inflation:</string>
+
+
+    <string name="erroNome">Please input a valid name</string>
+    <string name="erroFone">Favor input a valid phone number</string>
+    <string name="erroEmail">Favor input a valid e-mail</string>
+
+
+
+
+
+</resources>

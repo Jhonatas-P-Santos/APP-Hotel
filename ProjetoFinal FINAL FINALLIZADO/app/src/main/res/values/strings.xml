@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">ProjetoFinal</string>
+
+    <string name="bemvindo">Bem-vindo(a) aos nossos serviços de hotelaria</string>
+    <string name="nome">Favor preencher os dados abaixo:</string>
+    <string name="enviar">ENVIAR</string>
+    <string name="btnPlay">PLAY</string>
+    <string name="btnPause">PAUSE</string>
+    <string name="btnStop">STOP</string>
+    <string name="musica">Musiquinha pra entrar no clima</string>
+
+    <string name="btnDetalhes">Mais Detalhes</string>
+    <string name="labelDiaria">Valor da Diária:</string>
+    <string name="labelCritica">Avaliação:</string>
+
+
+    <string name="hintNome">NOME:</string>
+    <string name="hintTelefone">TELEFONE:</string>
+    <string name="hintEmail">EMAIL:</string>
+
+    <string name="ola">Olá</string>
+    <string name="info">Deseja enviar essas informações para o hotel e agendar seu quarto?</string>
+
+
+    <string name="btnAgendar">Agendar</string>
+    <string name="btnRetornar">Retornar</string>
+
+    <string name="vista">Melhor vista:</string>
+
+    <string name="endLabel">Endereço:</string>
+    <string name="foneLabel">Telefone:</string>
+    <string name="clickImage">Clique na imagem para ser direcionado</string>
+
+
+    <string name="notOla">Olá</string>
+    <string name="notBemvindo">Bem-vindo(a)</string>
+
+    <string name="dolar">Cotação do Dolar:</string>
+
+    <string name="erroNome">Favor inserir um nome</string>
+    <string name="erroFone">Favor inserir um telefone</string>
+    <string name="erroEmail">Favor inserir um e-mail</string>
+
+
+
+
+
+</resources>

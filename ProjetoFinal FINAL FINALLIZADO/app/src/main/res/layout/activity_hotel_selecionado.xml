@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".hotelSelecionado">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutHotel"
+        android:background="@color/teal_200"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+
+      >
+
+        <TextView
+            android:id="@+id/nomeHotel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:text="Hotel Lakeside"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"/>
+
+
+        <TextView
+            android:id="@+id/melhorVista"
+            android:layout_toRightOf="@+id/nomeHotel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:text="@string/vista"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/fotoHotel"
+            android:layout_width="match_parent"
+            android:layout_height="400px"
+            android:layout_below="@id/melhorVista"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/portobello"
+
+            />
+
+
+
+        <TextView
+            android:id="@+id/labelDiaria"
+            android:layout_below="@id/fotoHotel"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:text="@string/labelDiaria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/listaDiaria"
+            android:layout_gravity="center"
+            android:layout_below="@id/fotoHotel"
+            android:layout_toRightOf="@id/labelDiaria"
+            android:text="0"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/labelCritica"
+            android:layout_below="@id/fotoHotel"
+            android:layout_toRightOf="@id/listaDiaria"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:text="@string/labelCritica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/listaCritica"
+            android:layout_gravity="center"
+            android:layout_below="@id/fotoHotel"
+            android:text="0"
+            android:layout_toRightOf="@id/labelCritica"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/labelDolar"
+            android:layout_below="@id/labelDiaria"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:text="@string/dolar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tvCotacaoMoeda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/labelDiaria"
+            android:layout_toRightOf="@id/labelDolar"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            />
+
+
+        <TextView
+            android:id="@+id/tvNomeMoeda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/labelDiaria"
+            android:layout_toRightOf="@id/labelDolar"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            />
+
+
+        <TextView
+            android:id="@+id/labelFone"
+            android:layout_gravity="center"
+            android:layout_below="@id/labelDolar"
+            android:text="@string/foneLabel"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/listaTelefone"
+            android:layout_gravity="center"
+            android:layout_below="@id/labelDolar"
+            android:layout_toRightOf="@id/labelFone"
+            android:text="0"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/endLabel"
+            android:layout_gravity="center"
+            android:layout_below="@id/labelFone"
+            android:layout_marginLeft="30dp"
+            android:textStyle="bold"
+            android:text="@string/endLabel"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/endHotel"
+            android:layout_gravity="center"
+            android:layout_below="@id/labelFone"
+            android:layout_toRightOf="@id/endLabel"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="30dp"
+            android:text="SHTN Trecho 1 Conjunto 2 - Asa Norte, Brasília - DF"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/ola"
+        android:text="@string/ola"
+        android:layout_below="@id/layoutHotel"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="5dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/nomeUsuario"
+        android:layout_width="wrap_content"
+        android:textAllCaps="true"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layoutHotel"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/ola"
+        android:text="0"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/iconTel"
+        android:src="@drawable/ic_phone"
+        android:layout_below="@id/ola"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/telefoneUsuario"
+        android:layout_below="@id/ola"
+        android:layout_toRightOf="@id/iconTel"
+        android:text="989998998"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+
+        android:textStyle="italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/iconEmail"
+        android:src="@drawable/ic_email"
+        android:layout_below="@id/iconTel"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/emailUsuario"
+        android:layout_below="@id/telefoneUsuario"
+        android:layout_toRightOf="@id/iconEmail"
+
+        android:text="nairon.kuiz@gmail.com"
+        android:layout_marginLeft="5dp"
+        android:textStyle="italic"
+        android:layout_marginTop="10dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_below="@id/emailUsuario"
+        android:text="@string/info"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnAgendar"
+        android:layout_below="@id/info"
+        android:layout_marginLeft="40dp"
+        android:text="@string/btnAgendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnRetornar"
+        android:layout_below="@id/info"
+        android:layout_toRightOf="@id/btnAgendar"
+        android:layout_marginLeft="40dp"
+        android:text="@string/btnRetornar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+
+</RelativeLayout>

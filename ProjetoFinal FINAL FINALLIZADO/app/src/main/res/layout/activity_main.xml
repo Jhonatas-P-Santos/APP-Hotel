@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/bemVindo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:gravity="center"
+        android:text="@string/bemvindo"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nome"
+        android:textColor="@color/black"
+        android:gravity="center"
+
+        />
+
+        <EditText
+        android:id="@+id/getNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="15dp"
+        android:inputType="textCapWords"
+        app:startIconDrawable="@drawable/ic_nome"
+        android:hint="@string/hintNome"
+        />
+
+
+    <EditText
+        android:id="@+id/getTelefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintTelefone"
+        android:inputType="phone"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+
+        android:layout_marginStart="15dp"/>
+
+
+    <EditText
+        android:id="@+id/getEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintEmail"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+
+        android:layout_marginStart="15dp"/>
+
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/enviar" />
+
+
+
+    <TextView
+        android:id="@+id/labelMusica"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:text="@string/musica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutBtn"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:orientation="horizontal" >
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            app:srcCompat="@drawable/ic_play_arrow"
+            tools:ignore="VectorDrawableCompat" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabPause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginStart="15dp"
+        android:gravity="center"
+        app:srcCompat="@drawable/ic_pause"
+        tools:ignore="VectorDrawableCompat" />
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
